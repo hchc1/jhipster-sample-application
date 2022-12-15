@@ -1,0 +1,36 @@
+
+
+
+
+
+
+entity Cliente {
+	nome String required,
+    cpf String required,
+    rg String required,
+    foto ImageBlob,
+    dataNascimento LocalDate required,
+    beneficioAtivo Boolean
+}
+
+entity Tag {
+	nome String required
+}
+
+entity ResponsavelLegal {
+	nome String required,
+    cpf String required,
+}
+
+relationship ManyToMany {
+	Cliente{tags(nome)} to Tag{clientes}
+}
+
+relationship ManyToOne {
+	Cliente{responsavelLegal(nome)} to ResponsavelLegal
+}
+
+paginate * with pagination
+dto * with mapstruct
+service all with serviceImpl
+filter *
