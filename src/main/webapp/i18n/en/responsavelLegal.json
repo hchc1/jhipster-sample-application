@@ -1,0 +1,25 @@
+{
+  "testeJHipsterApp": {
+    "responsavelLegal": {
+      "home": {
+        "title": "Responsavel Legals",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Responsavel Legal",
+        "createOrEditLabel": "Create or edit a Responsavel Legal",
+        "notFound": "No Responsavel Legals found"
+      },
+      "created": "A new Responsavel Legal is created with identifier {{ param }}",
+      "updated": "A Responsavel Legal is updated with identifier {{ param }}",
+      "deleted": "A Responsavel Legal is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Responsavel Legal {{ id }}?"
+      },
+      "detail": {
+        "title": "Responsavel Legal"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "cpf": "Cpf"
+    }
+  }
+}
