@@ -1,0 +1,25 @@
+{
+  "testeJHipsterApp": {
+    "responsavelLegal": {
+      "home": {
+        "title": "Responsavel Legals",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Responsavel Legal",
+        "createOrEditLabel": "Criar ou editar Responsavel Legal",
+        "notFound": "Nenhum Responsavel Legal encontrado"
+      },
+      "created": "Um novo Responsavel Legal foi criado com o identificador {{ param }}",
+      "updated": "Um Responsavel Legal foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Responsavel Legal foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Responsavel Legal {{ id }}?"
+      },
+      "detail": {
+        "title": "Responsavel Legal"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "cpf": "Cpf"
+    }
+  }
+}

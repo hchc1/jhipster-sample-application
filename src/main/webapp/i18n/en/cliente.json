@@ -1,0 +1,31 @@
+{
+  "testeJHipsterApp": {
+    "cliente": {
+      "home": {
+        "title": "Clientes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Cliente",
+        "createOrEditLabel": "Create or edit a Cliente",
+        "notFound": "No Clientes found"
+      },
+      "created": "A new Cliente is created with identifier {{ param }}",
+      "updated": "A Cliente is updated with identifier {{ param }}",
+      "deleted": "A Cliente is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cliente {{ id }}?"
+      },
+      "detail": {
+        "title": "Cliente"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "cpf": "Cpf",
+      "rg": "Rg",
+      "foto": "Foto",
+      "dataNascimento": "Data Nascimento",
+      "beneficioAtivo": "Beneficio Ativo",
+      "responsavelLegal": "Responsavel Legal",
+      "tags": "Tags"
+    }
+  }
+}
