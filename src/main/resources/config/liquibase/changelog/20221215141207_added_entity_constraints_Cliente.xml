@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Cliente.
+    -->
+    <changeSet id="20221215141207-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="responsavel_legal_id"
+                                 baseTableName="cliente"
+                                 constraintName="fk_cliente__responsavel_legal_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="responsavel_legal"/>
+
+        <addForeignKeyConstraint baseColumnNames="cliente_id"
+                                 baseTableName="rel_cliente__tags"
+                                 constraintName="fk_rel_cliente__tags__cliente_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cliente"/>
+
+        <addForeignKeyConstraint baseColumnNames="tags_id"
+                                 baseTableName="rel_cliente__tags"
+                                 constraintName="fk_rel_cliente__tags__tags_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tag"/>
+    </changeSet>
+</databaseChangeLog>
